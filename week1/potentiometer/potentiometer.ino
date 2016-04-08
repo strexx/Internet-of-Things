@@ -8,14 +8,10 @@
 #include <EIoTCloudRestApiConfig.h>
 #include <ThingSpeak.h>
 #include <ESP8266WiFi.h>
-#include <WiFiClient.h>
-#include <WiFiClientSecure.h>
-#include <WiFiServer.h>
-#include <WiFiUdp.h>
 
 // Define client
-const char* ssid = "MR";
-const char* password = "159753!!";
+const char* ssid = ""; //Don't post your wifi data
+const char* password = "";
 WiFiClient client;
 
 // EIoTCloud API
